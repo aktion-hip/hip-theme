@@ -1,0 +1,6 @@
+title: hip-proxy
+templateScript: /hip-module/templates/pages/hip-proxy.ftl
+renderType: freemarker
+dialog: hip-module:pages/hip-proxy
+visible: true
+

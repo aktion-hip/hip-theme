@@ -1,0 +1,57 @@
+<!-- wp:pattern {"slug":"hip/hip-header"} /-->
+
+<!-- wp:group {"tagName":"main"} -->
+<main id="wrapper" class="wp-block-group hip-inner">
+  <div class="hip-post">
+    <!-- wp:group {"layout":{"inherit":true}} -->
+    <div class="wp-block-group">
+      <!-- wp:post-title {"level":1,"align":"wide","style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
+
+      <!-- wp:post-featured-image {"align":"wide","style":{"spacing":{"margin":{"bottom":"var(--wp--custom--spacing--medium, 6rem)"}}}} /-->
+
+      <!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
+      <hr class="wp-block-separator alignwide is-style-wide" />
+      <!-- /wp:separator -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:spacer {"height":32} -->
+    <div style="height: 32px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:post-content {"layout":{"inherit":true}} /-->
+
+    <!-- wp:spacer {"height":32} -->
+    <div style="height: 32px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:group {"layout":{"inherit":true}} -->
+    <div class="wp-block-group">
+      <!-- wp:group {"layout":{"type":"flex"}} -->
+      <div class="wp-block-group hip-post-props">
+        <!-- wp:post-date {"format":"j. F Y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"normal"} /-->
+
+        <!-- wp:post-author {"showAvatar":false,"fontSize":"normal"} /-->
+
+        <!-- wp:post-terms {"term":"post_tag","fontSize":"normal"} /-->
+
+        <!-- wp:site-title {"level":0, "textAlign":"right"} /-->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:spacer {"height":32} -->
+      <div style="height: 32px" aria-hidden="true" class="wp-block-spacer"></div>
+      <!-- /wp:spacer -->
+
+      <!-- wp:separator {"className":"is-style-wide"} -->
+      <hr class="wp-block-separator is-style-wide" />
+      <!-- /wp:separator -->
+
+      <!-- wp:post-comments /-->
+    </div>
+    <!-- /wp:group -->
+  </div>
+</main>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"hip/hip-footer"} /-->

@@ -1,2 +1,3 @@
-# hip-theme
+# HIP Theme
+
 Wordpress theme for HIP layout
