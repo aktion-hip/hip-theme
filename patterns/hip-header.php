@@ -26,7 +26,7 @@ $root = get_option( 'hip_settings_site_path', '' );
       <?php endif; ?>
 
       <li>
-        <a href="<?php echo $root; ?>/hip/archive.html" class="button small fit">Archiv</a>
+        <a href="<?php echo $root; ?>/hip/projects.html" class="button small fit">Projekte</a>
       </li>
       <li>
         <a href="<?php echo $root; ?>/hip/person.html" class="button small fit">Person</a>
@@ -53,7 +53,7 @@ $root = get_option( 'hip_settings_site_path', '' );
       <?php else: ?>
         <li><a href="./" class="fit active_tree">Blog</a></li>
         <?php endif; ?>
-      <li><a href="<?php echo $root; ?>/hip/archive.html">Archiv</a></li>
+      <li><a href="<?php echo $root; ?>/hip/projects.html">Projekte</a></li>
       <li><a href="<?php echo $root; ?>/hip/person.html">Person</a></li>
     </ul>
   </div>
